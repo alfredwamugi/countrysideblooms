@@ -65,12 +65,9 @@ export default function WinesChocolatesPage() {
                   <p className="text-2xl font-bold text-[var(--primary)]">Ksh {product.price.toLocaleString()}</p>
                 </CardContent>
                 <CardFooter className="p-4 pt-0 flex gap-2">
-                  <Button variant="outline" size="sm" className="flex-1 bg-transparent">
-                    Quick View
-                  </Button>
-                  <Button asChild size="sm" className="flex-1 bg-[var(--primary)] hover:bg-[var(--primary-light)]">
+                  <Button asChild size="sm" className="w-full bg-[var(--primary)] hover:bg-[var(--primary-light)]">
                     <Link href="https://paystack.shop/countrysidebloomsnyk" target="_blank">
-                      Add to Cart
+                      View Addon
                     </Link>
                   </Button>
                 </CardFooter>
